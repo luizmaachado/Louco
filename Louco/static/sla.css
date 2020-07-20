@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body{
+  
+  font-family: 'Montserrat', sans-serif;
+  }
+div.noticia {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #00;
+  color: #000;
+
+}
+
+div.noticia img.esquerda {
+  float: left;
+  margin-right: 15px;
+}
+
+div.noticia img.direita {
+  float: right;
+  margin-left: 15px;
+}
+div.x {
+: 15px;
+}
+
+div.espaco {
+  clear: both;
+}

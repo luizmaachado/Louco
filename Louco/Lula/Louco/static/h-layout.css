@@ -1,0 +1,88 @@
+a.head{
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 1px 1px;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.head:hover{
+  border: 1px solid #505050;
+  background-color: #505050;
+  color: white;
+}
+.button{ 
+  background-color: #505050;
+  border: none;
+  color: #606060;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.head {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #606060;
+}
+
+.head:hover{
+  background-color: #505050;
+  color: white;
+  text-decoration: none;
+}
+.cima{
+  border-bottom:2px solid black;
+  width: 100%
+}
+.ex1 {
+	margin-top: 2%;
+	font-variant: small-caps;
+}
+.ex2{
+
+	font-weight: bold;
+	text-align: right;
+	margin-top: -7%
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+div.noticia {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  color: black;
+
+}
+
+div.noticia img.esquerda {
+  float: left;
+  margin-right: 15px;
+}
+
+div.noticia img.direita {
+  float: right;
+  margin-left: 15px;
+}
+div.x {
+: 15px;
+}
+
+div.espaco {
+  clear: both;
+}

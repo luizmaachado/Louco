@@ -1,0 +1,54 @@
+a:link, a:visited {
+  background-color: #606060;
+  color: white;
+  padding: 10px 21px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+a:hover, a:active {
+  background-color: #404040;
+}
+
+p.ex1 {
+	margin-top: 2%;
+	font-variant: small-caps;
+    border: 0px solid black;
+    outline-style: outset;
+    outline-color: grey;
+    outline-offset: 28px;
+}
+p.ex2{
+
+	font-weight: bold;
+	text-align: right;
+	margin-top: -4%
+}
+div.meio1{
+  	text-align: center;
+	width: 24%;
+	height:60.972973%;
+  	padding: 20px;
+  	border: 3px solid gray;
+  	margin-left: 20%;
+  	margin-top: 10%
+}
+div.p-card1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+div.meio2{
+  	text-align: center;
+	width: 24%;
+	height:60.972973%;
+  	padding: 20px;
+  	border: 3px solid gray;
+  	margin-left: 55%;
+  	margin-top: -32.3%
+}
+div.p-card2{
+	padding-top: 20px;
+	padding-bottom: 20px
+}

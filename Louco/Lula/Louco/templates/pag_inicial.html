@@ -1,0 +1,50 @@
+{% extends "h-layout.html" %}
+{% block content %}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='sla.css')}}">
+</head>
+
+  <div class="noticia">
+    <img class="direita" width="600px" height="385px"src="https://nossaciencia.com.br/wp-content/uploads/2017/09/LOUCO_destaque.jpg">
+    <center>
+      <h3>Bem vindo ao LOUCO!</h3>
+      <p>O LOUCo (Laboratório de Objetos Urbanos Conectados) é um makerspace do Porto Digital, que visa experimentar soluções inovadoras para problemas urbanos, a partir da Internet of Things (IoT) e fabricação digital, de modo a possibilitar que objetos físicos sintam o ambiente e se comuniquem, independente de intervenção humana. São projetos equipados com sensores capazes de trocar informações entre si, com as pessoas ou com o ambiente - até cidades inteiras, sendo projetadas de maneira totalmente conectada e automatizada, e/ou que interajam ludicamente com as pessoas.</p>
+    </center>
+    <center> 
+          <a class="button bmeio" href="{{url_for('agendamento')}}">Agende sua visita</a>
+     </center>
+    <div class="espaco"></div>
+  </div>
+  <hr>
+
+
+  <div class="noticia">
+    <h2>Notícias</h2>
+    <center>
+        <div style="float:left; width:33%">
+            <a href="https://exame.abril.com.br/carreira/quarteto-de-cordas-leva-musica-e-esperanca-para-comunidades-do-rio/"  title="Grupo de jovens estudantes leva música para ruas cariocas e aulas para crianças da comunidade da Providência, no Rio de Janeiro">
+            <img class="direita" width="300px" height="200px" src="https://abrilexame.files.wordpress.com/2019/09/bast-256.jpg?quality=70&strip=info&resize=428,285">
+            </a>
+            <p>Quarteto de cordas leva música e esperança para comunidades do Rio</p>
+        </div>
+        <div style="float:left; width:33%">
+            <a href="https://exame.abril.com.br/carreira/projeto-premiado-discute-o-empoderamento-feminino-na-periferia/"  title="Criado por duas jovens estudantes da zona leste de São Paulo, projeto que discute o empoderamento feminino em escolas públicas foi premiado por fundo da ONU">
+            <img class="direita" width="300px" height="200px" src="https://abrilexame.files.wordpress.com/2019/05/ago-bas-1.jpg?quality=70&strip=info&resize=428,285">
+            </a>
+            <p>Projeto premiado discute o empoderamento feminino na periferia</p>
+        </div>
+        <div name ="x"style="float:left; width:33%">
+            <a href="hhttps://exame.abril.com.br/pme/brumadinho-startups-empreendedores-google-ifood/"  title="Empresas de tecnologia e entidades do governo associadas ao setor estão recrutando   empreendimentos inovadores">
+            <img class="direita" width="300px" height="200px" src="https://abrilexame.files.wordpress.com/2019/01/2019-01-26t165702z_831017826_rc1edb473cb0_rtrmadp_3_vale-sa-disaster-e1548524916567.jpg?quality=70&strip=info&resize=428,285">
+            </a>
+            <center>
+                <p>Startups levarão tecnologia para ajudar Brumadinho</p>
+            </center>
+        </div>
+    </center>
+    <div class="espaco"></div>
+    <form action = "http://127.0.0.1:5000/noticias" method="get">
+        <button style="float:right;" class="bmeio" type="submit">Ver todas as notícias</button>
+    </form>
+{% endblock content %}

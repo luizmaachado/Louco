@@ -1,0 +1,25 @@
+{% extends "h-layout.html" %}
+{% block content %}
+
+    <div class = "tudo">
+        <table class = "meio">
+            <tr>
+                <td class = "teste">
+                    <img src="https://www.cloudcomputing-news.net/media/img/news/isometric-people-team-management-concept-vector-id949895970.jpg.800x600_q96.png" width="320" height="260">   
+                    <div class="p-card">
+                        <p>descrição de iniciar projeto enchendolinguiçapontocompontobr</p>
+                        <a class = "bmeio" href="{{url_for('criarprojeto')}}">Estou começando um projeto</a>
+                    </div>
+                </td>
+                <td class = "teste">
+                    <img src="https://www.cloudcomputing-news.net/media/img/news/isometric-people-team-management-concept-vector-id949895970.jpg.800x600_q96.png" width="320" height="260">
+                    <div class="p-card">
+                        <p>descrição de ja tenho projeto enchendolinguiçapontocompontobr</p>
+                        <a class="bmeio" href="{{url_for('criarprojeto')}}">Já tenho um projeto</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+{% endblock content %}

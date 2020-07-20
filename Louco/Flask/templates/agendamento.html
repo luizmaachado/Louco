@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Agendamento</title>
+</head>
+<body>
+	<center>
+<h1>Agende a sua visita</h1>
+
+<form action = "http://127.0.0.1:5000/add" method="POST">
+<p><label for="agendamento"> Selecione a data: </label>	
+	<input type="date" name="agendamento" id ="agendamento">
+
+	<h1> </h1>
+
+<p><label for="turno"> turno: </label>
+	<select name = "turno" id="turno" >
+		<option> Manhã </option>	
+		<option> Tarde </option>	
+
+	</select> 
+
+	<br>
+	<h1> </h1>
+	<button type="submit">Marcar</button>
+</form>	
+
+	</center>
+</body>
+</html>

@@ -1,0 +1,37 @@
+.meio{
+  text-align: center;
+  border-collapse: collapse;
+  height: 75%;
+  width: 70%;
+}
+.teste{
+	border: 1.5px solid black;
+  padding-top: 3%;
+}
+.tudo{
+  padding-left: 10.5%;
+  padding-top: 3.5%; 
+}
+.bmeio{
+  background-color: #606060;
+  border: none;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.bmeio:hover{
+  background-color: #505050;
+  text-decoration: none;
+  color: white;
+}
+.p-card{
+  padding-top:10% 
+}
